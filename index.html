@@ -1,6 +1,8 @@
 <!DOCTYPE html>
+    <!--Informa al navegador que versión de HTML se usó para escribir el documento-->
 <html lang="en">
 <head>
+    <!--Cabeza: Provee información general. (Metadatos)-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,10 +13,40 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
     <!--Custom CSS File Link-->
     <link rel="stylesheet" href="css/style.css">
-
-
 </head>
+
 <body>
+    <!--Cuerpo: Representa el contenido de la página-->
+
+
+    <!--Header Section Starts-->
+    <header class="header fixed-top"><!--Contiene el encabezado del documento-->
+        <div class="container"><!--Etiqueta que define las divisiones lógicas-->
+            <div class="row align-items-center justify-content-between">
+
+                <a href="#" class="logo"><span>BE</span>FIT</a>
+
+                <nav class="nav"><!--Sección de la página cuyo propósito es proporcionar enlaces de navegación-->
+                    <a href="#home">Home</a><!--crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página-->
+                    <a href="#about">About</a>
+                    <a href="#courses">Courses</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#team">Team</a>
+                    <a href="#blogs">Blogs</a>
+                </nav>
+
+                <!--Esta línea permite invocar las barras del menú-->
+                <div id="menu-btn" class="fas fa-bars"></div>
+
+            </div>
+        </div>
+    </header>
+    <!--Header Section Ends-->
     
+
+
+
+    <!--Custom Js File Link-->
+    <script src="js/script.js"></script>
 </body>
 </html>
