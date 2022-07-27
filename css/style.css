@@ -222,6 +222,34 @@ section {
   font-size: 30px;
 }
 
+.about span {
+  font-size: 2rem;
+  color: #FF5421;
+}
+.about h3 {
+  color: #fff;
+  font-size: 28px;
+}
+.about p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #ccc;
+  padding: 1rem 0;
+}
+.about ul {
+  list-style: none;
+}
+.about ul li {
+  padding-top: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #ccc;
+}
+.about ul li i {
+  padding-right: 0.5rem;
+  color: #FF5421;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;

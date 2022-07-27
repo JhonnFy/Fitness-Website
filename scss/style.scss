@@ -321,7 +321,36 @@ section{
     
 
 
+.about{
+    span{
+        font-size: 2rem;
+        color: $orange;
+    }
+    //Para aplicar el estilo
+    h3{
+        color: #fff;
+        font-size: 28px;
+    }
 
+    p{
+        @include graph-text(1.5rem);
+        padding:1rem 0;
+    }
+
+    ul{
+        list-style: none;
+
+        li{
+            padding-top: 1.5rem;
+            @include graph-text(1.5rem);
+
+            i{
+                padding-right: .5rem;
+                color: $orange;
+            }
+        }
+    }
+}
 
 
 
