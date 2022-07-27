@@ -148,6 +148,25 @@ body {
   background: #1d0e15;
 }
 
+section {
+  padding: 3rem 1rem;
+}
+
+.link-btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  background: #FF5421;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+}
+.link-btn:hover {
+  background: #fff;
+  color: #FF5421;
+}
+
 .header {
   z-index: 1000;
   padding: 3rem 1rem;
@@ -188,9 +207,27 @@ body {
   color: #fff;
 }
 
+.home {
+  background: url(../img/home-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.home span {
+  font-size: 2rem;
+  color: #FF5421;
+}
+.home h3 {
+  color: #fff;
+  font-size: 30px;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
+  }
+  .home h3 {
+    font-size: 3rem;
   }
 }
 @media (max-width: 768px) {
