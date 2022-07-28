@@ -353,7 +353,28 @@ section{
 }
 
 
+.counter{
+    background: url(../img/counter-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 
+    .box-container{
+        @include grid(25rem);
+
+        .box{
+            text-align: center;
+
+            H3{
+                font-size: 5rem;
+                color: $orange;
+            }
+
+            p{
+                @include graph-text(2rem);
+            }
+        }
+    }
+}
 
 
 
