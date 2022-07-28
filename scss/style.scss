@@ -239,13 +239,27 @@ section{
     cursor: pointer;
     border-radius: .5rem;
     font-size: 1.5rem;
+    text-transform: capitalize;
 
 
    &:hover{
     background: $white;
     color: $orange;
    } 
+}
 
+.heading{
+    text-align: center;
+    margin-bottom: 3rem;
+
+    span{
+        font-size: 2.5rem;
+        color:$orange;
+    }
+
+    h3{
+        @include graph-text(3.5rem);
+    }
 
 }
 
@@ -314,7 +328,7 @@ section{
 
     h3{
         color: #fff;
-        font-size: 30px;
+        font-size: 28px;
     }
 
 }
@@ -365,7 +379,7 @@ section{
             text-align: center;
 
             H3{
-                font-size: 5rem;
+                font-size: 28px;
                 color: $orange;
             }
 
@@ -375,6 +389,34 @@ section{
         }
     }
 }
+
+
+.courses{
+    .box-container{
+        @include grid(30rem);
+
+        .box{
+            border: $border;
+
+            .image{
+                height: 25rem;
+                overflow: hidden;
+
+                img{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
 
 
 
@@ -439,4 +481,3 @@ section{
 body{
     height: 300rem;
 }
-
