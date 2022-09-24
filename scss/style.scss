@@ -239,14 +239,26 @@ section{
     cursor: pointer;
     border-radius: .5rem;
     font-size: 1.5rem;
-
+    text-transform: capitalize;
 
    &:hover{
     background: $white;
     color: $orange;
    } 
+}
 
+.heading{
+    text-align: center;
+    margin-bottom: 3.5rem;
 
+    span{
+        font-size: 2.5rem;
+        color:$orange;
+    }
+
+    h3{
+        @include graph-text(3rem);
+    }
 }
 
 
@@ -375,6 +387,73 @@ section{
         }
     }
 }
+
+.courses{
+    .box-container{
+        @include grid(40rem);
+
+        .box{
+            border: $border;
+
+            &:hover .image img{
+                transform: scale(1.1);
+              }
+
+            .image{
+                height: 25rem;
+                overflow: hidden;
+
+                img{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .content{
+                padding: 2rem;
+
+                .icons{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding-bottom: 1rem;
+              
+
+                    span{
+                        @include graph-text(1.7rem);
+
+                        i{
+                            color: $orange;
+                            padding-right: .5rem;
+                        }
+                    }
+                }
+                
+                h3{
+                    @include graph-text(2rem);
+                    padding: 0.5rem;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
