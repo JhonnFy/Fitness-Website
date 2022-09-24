@@ -400,6 +400,58 @@ section {
   color: #ccc;
 }
 
+.team .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+.team .box-container .box {
+  height: 60rem;
+  overflow: hidden;
+  position: relative;
+}
+.team .box-container .box:hover .content {
+  left: -100%;
+}
+.team .box-container .box:hover .share {
+  left: 0;
+}
+.team .box-container .box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.team .box-container .box .content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  padding: 1rem 2rem;
+}
+.team .box-container .box .content span {
+  font-size: 1.7rem;
+  color: #FF5421;
+}
+.team .box-container .box .content h3 {
+  font-size: 2rem;
+  color: #000;
+}
+.team .box-container .box .share {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  background: #fff;
+  padding: 1.5rem 1rem;
+}
+.team .box-container .box .share a {
+  font-size: 2rem;
+  color: #000;
+  margin: 0 1rem;
+}
+.team .box-container .box .share a:hover {
+  color: #FF5421;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
