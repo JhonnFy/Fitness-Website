@@ -383,6 +383,23 @@ section {
   color: #fff;
 }
 
+.join span {
+  font-size: 2.5rem;
+  color: #FF5421;
+}
+.join h3 {
+  font-size: 2.7rem;
+  line-height: 2;
+  color: #ccc;
+  padding-top: 1rem;
+}
+.join p {
+  padding: 1rem 0;
+  font-size: 1.7rem;
+  line-height: 2;
+  color: #ccc;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
@@ -396,6 +413,9 @@ section {
   }
   .pricing .box-container .box:nth-child(2) {
     transform: scale(1);
+  }
+  .join h3 {
+    font-size: 2.5rem;
   }
 }
 @media (max-width: 768px) {
