@@ -576,6 +576,61 @@ section{
 }
 
 
+.blogs{
+    .box-container{
+        @include grid(30rem);
+        
+        .box{
+            border:$border;
+
+            &:hover .image img{
+                transform: scale(1.1);
+              }
+
+
+            .image{
+                height: 25rem;
+                overflow: hidden;
+
+                img{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .content{
+                padding: 2rem;
+                
+                .link{
+                    @include graph-text(1.8rem);
+                    &:hover{
+                        color: $orange;
+                    }
+                }
+
+                .icons{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding-top: 2rem;
+                    margin-top: 2rem;
+                    border-top: $border;
+
+                    span{
+                        @include graph-text(1.5rem);
+
+                        i{
+                            color:$orange;
+                            padding-right: .5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 
 
