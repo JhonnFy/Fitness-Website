@@ -5,6 +5,3 @@
 #
 ![image](https://github.com/JhonnFy/Fitness-Website/assets/97255802/2edf3851-36c2-4269-9dc0-04dbba3f6471)
 
-
-![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
-##### Travel Website Php/Html/Css/Sass/JavaScript
